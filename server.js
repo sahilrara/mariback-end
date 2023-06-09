@@ -4,7 +4,7 @@ const model = require("./models/UserShema");
 const { connectDB } = require("./configDB/connectDB");
 const app = express();
 
-const DATABASE_URL = "mongodb://0.0.0.0:27017/";
+const DATABASE_URL = "mongodb://localhost:27017/";
 
 const port = 4500;
 
